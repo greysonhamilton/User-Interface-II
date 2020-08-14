@@ -50,3 +50,38 @@ table {
 }
 
 /* Reset ends here */
+body {
+	font-size: 62.5%;
+	margin: 5%;
+	background-color: #002699;
+	font-color: black;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+nav {
+	display: flex;
+	width: 40%;
+	margin: 2% 0;
+}
+
+nav a {
+	text-decoration: none;
+	font-color: black;
+}
+
+a:link, a:visited, a:active {
+	font-color: black;
+}
+
+a: hover {
+	font-color: white;
+}
+
