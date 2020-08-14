@@ -60,9 +60,9 @@ body {
 header {
 	display: flex;
 	flex-direction: column;
-	background-image: url('gaia.jpeg');
-	background-color: #001a4d;
+	background-size: 100%;
 	margin: 10% 0;
+	z-index: 2;
 }
 
 h1 {
@@ -93,7 +93,7 @@ a: hover {
 }
 
 main img {
-	width: 15%;
+	width: 60%;
 }
 
 .container1 {
@@ -105,36 +105,51 @@ main img {
 	flex-direction: column;
 	align-items: center;
 }
+
 h3 {
+	margin: 2% 0;
 	font-size: 2rem;
 	font-family: 'Sriracha', cursive;
 }
 
+button {
+	margin: 3% 0;
+}
 
 p {
+	width: 30%;
+	margin: 1% 0;
+	text-align: center;
 	font-family: 'Sriracha', cursive;
 	font-size: 1.25rem;
 }
 
 section {
-	margin: 0 20%;
+	margin: 20% 20%;
+	width: 90%;
 }
 
 div.array {
+	margin: 5% 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+div.array2 {
+	margin: 5% 0;
 	display: flex;
 	justify-content: space-around;
 }
 
-div.array2 {
-	display: flex;
-	justify-content: space-around;
+section img {
+	flex-shrink: 10;
 }
 
 footer {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	height: 5vh;
+	margin: 4% 0;
 }
 
 h4 {
