@@ -54,7 +54,7 @@ body {
 	font-size: 62.5%;
 	margin: 5%;
 	background-color: #001a4d;
-	color: black;
+	color: whitesmoke;
 }
 
 header {
@@ -62,11 +62,13 @@ header {
 	flex-direction: column;
 	background-image: url('gaia.jpeg');
 	background-color: #001a4d;
+	margin: 10% 0;
 }
 
 h1 {
 	font-size: 3rem;
 	font-family: 'Sriracha', cursive;
+	margin: 1% 0;
 }
 
 nav {
@@ -83,7 +85,7 @@ nav a {
 }
 
 a:link, a:visited, a:active {
-	color: black;
+	color: white;
 }
 
 a: hover {
@@ -112,6 +114,10 @@ h3 {
 p {
 	font-family: 'Sriracha', cursive;
 	font-size: 1.25rem;
+}
+
+section {
+	margin: 0 20%;
 }
 
 div.array {
