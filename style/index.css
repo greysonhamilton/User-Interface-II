@@ -113,7 +113,7 @@ h3 {
 }
 
 button {
-	margin: 3% 0;
+	margin: 1%;
 }
 
 p {
@@ -138,13 +138,19 @@ div.array {
 div.array2 {
 	margin: 5% 0;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
-section img {
-	width: 100%;
-	margin: 2%;
-	padding: 1%;
+div.array img {
+	flex-basis: 20%;
+	margin: 2% 0;
+	padding: 1% 0;
+}
+
+div.array2 img {
+	flex-basis: 20%;
+	margin: 2% 0;
+	padding: 1% 0;
 }
 
 footer {
@@ -157,6 +163,7 @@ footer {
 }
 
 h4 {
+	margin-top: 3%;
 	font-size: 1.5rem;
 	flex-basis: 10%;
 	font-family: 'Sriracha', cursive;
