@@ -61,6 +61,7 @@ header {
 	display: flex;
 	flex-direction: column;
 	background-image: url("gaia.jpg");
+	background-repeat: no-repeat;
 	background-size: 100%;
 	margin: 10% 0;
 }	
@@ -103,26 +104,27 @@ main img {
 .main {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: flex-start;
+	margin-left: 20%;
 }
 
 h3 {
-	margin: 2% 0;
+	margin: 3% 0;
 	font-size: 2rem;
 	font-family: 'Sriracha', cursive;
 }
 
 button {
-	margin: 1%;
+	margin: 2%;
+	padding: 1% 2%;
 }
 
 p {
-	width: 30%;
+	width: 60%;
 	margin: 1% 0;
-	text-align: center;
 	font-family: 'Sriracha', cursive;
 	font-size: 1.25rem;
-}
+} 
 
 section {
 	margin: 20% 20%;
@@ -158,6 +160,7 @@ footer {
 	flex-direction: column;
 	align-items: center;
 	background-image: url("gaia2.jpeg");
+	background-repeat: no-repeat;
 	background-size: 100%;
 	margin: 4% 0;
 }
