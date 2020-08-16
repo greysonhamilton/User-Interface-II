@@ -170,3 +170,11 @@ h4 {
 	flex-basis: 10%;
 	font-family: 'Sriracha', cursive;
 }
+
+@media screen and (max-width: 800px) {
+	
+}
+
+@media screen and (max-width: 500px) {
+	
+}
