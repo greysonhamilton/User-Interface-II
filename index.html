@@ -13,10 +13,11 @@
     <header class="top">
         <h1>Greyson Hamilton</h1>
         <nav class="links">
-            <a href="index.html" alt="Home">Home</a>
-            <a href="about.html" alt="About Me">About</a>
-            <a href="projects.html" alt="My Projects">Projects</a>
-            <a href="contact.html" alt="Please Contact Me">Contact Me</a>
+            <button class="dropdown" onclick=""><h2>Menu</h2></button>
+            <a class="panel" href="index.html" alt="Home">Home</a>
+            <a class="panel" href="about.html" alt="About Me">About</a>
+            <a class="panel" href="projects.html" alt="My Projects">Projects</a>
+            <a class="panel" href="contact.html" alt="Please Contact Me">Contact Me</a>
         </nav>
     </header>
     <main>
@@ -53,5 +54,27 @@
         <img onclick="document.location='https://www.linkedin.com/in/greyson-hamilton-61b515185'" src="img/linkedin.png"/>
         </div>
     </footer>
+    <!-- script adapted from w3schools -->
+    <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+        
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+        </script>
 </body>
 </html>

@@ -80,6 +80,10 @@ nav {
 	margin: 2% 0;
 }
 
+button.dropdown {
+	display: none;
+}
+
 nav a {
 	text-decoration: none;
 	color: black;
@@ -183,57 +187,56 @@ h4 {
 		align-self: center;
 	}
 
-div.container1 {
-	flex-direction: column;
-	align-items: center;
-}
+	div.container1 {
+		flex-direction: column;
+		align-items: center;
+	}
 
-div.container1 img {
-	width: 20vw;
-	border-radius: 50%;
-}
+	div.container1 img {
+		width: 20vw;
+		border-radius: 50%;
+	}
 
-div.main h3 {
-	align-self: center;
-}
+	div.main h3 {
+		align-self: center;
+	}
 
-div.main button {
-	align-self: center;
-}
+	div.main button {
+		align-self: center;
+	}
 
-div.main p {
-	align-self: center;
-	align-items: center:
-}
+	div.main p {
+		align-self: center;
+		align-items: center:
+	}
 
-.main {
-	margin: 0;
-}
+	.main {
+		margin: 0;
+	}
 
-p {
-	text-align: center;
-}
+	p {
+		text-align: center;
+	}
 
-div.array {
-	flex-wrap: wrap;
-}
+	div.array {
+		flex-wrap: wrap;
+	}
 
-div.array2 {
-	flex-wrap: wrap;
-}
+	div.array2 {
+		flex-wrap: wrap;
+	}
 
-section div.array1 img {
-	flex-basis: 40%;
-}
+	section div.array1 img {
+		flex-basis: 40%;
+	}
 
-div.array img {
-	flex-basis: 40%;
-}
+	div.array img {
+		flex-basis: 40%;
+	}
 
-div.array2 img {
-	flex-basis: 40%;
-}
-
+	div.array2 img {
+		flex-basis: 40%;
+	}
 }
 
 @media screen and (max-width: 500px) {
@@ -243,7 +246,28 @@ div.array2 img {
 		align-items: center;
 	}
 
-	nav a {
+	button.dropdown {
+		display: block;
+		margin-top: 15%;
+		transition: 0.4s;
+	}
+
+	h2 {
 		font-size: 1.5rem;
 	}
+
+	a.panel {
+		font-size: 1.5rem;
+		padding: 0 18px;
+		background-color: white;
+		color: black;
+		max-height: 0;
+		overflow: hidden;
+		transition: 0.6s ease-out;
+	  }
+
+	  a.panel.show {
+		  opacity: 1;
+		  max-height: 800px;
+	  }
 }

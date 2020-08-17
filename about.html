@@ -9,6 +9,7 @@
     <header class="top">
         <h1>Greyson Hamilton</h1>
         <nav class="links">
+            <button class="accordion"><h2>Menu</h2></button>
             <a href="index.html" alt="Home">Home</a>
             <a href="about.html" alt="About Me">About</a>
             <a href="projects.html" alt="My Projects">Projects</a>
@@ -26,5 +27,21 @@
         <img onclick="document.location='https://www.linkedin.com/in/greyson-hamilton-61b515185'" src="img/linkedin.png"/>
         </div>
     </footer>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+        </script>
 </body>
 </html>
