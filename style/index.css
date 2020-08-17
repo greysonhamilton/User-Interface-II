@@ -178,6 +178,64 @@ h4 {
 	font-family: 'Sriracha', cursive;
 }
 
-@media screen and (max-width: 480px) {
-	
+@media screen and (max-width: 800px) {
+
+	h1 {
+		align-self: center;
+	}
+
+	nav {
+		align-self: center;
+	}
+
+	div.container1 {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	div.container1 img {
+		width: 20vw;
+		border-radius: 50%;
+	}
+
+	div.main h3 {
+		align-self: center;
+	}
+
+	div.main button {
+		align-self: center;
+	}
+
+	div.main p {
+		align-self: center;
+		align-items: center:
+	}
+
+	.main {
+		margin: 0;
+	}
+
+	p {
+		text-align: center;
+	}
+
+	div.array {
+		flex-wrap: wrap;
+	}
+
+	div.array2 {
+		flex-wrap: wrap;
+	}
+
+	section div.array1 img {
+		flex-basis: 40%;
+	}
+
+	div.array img {
+		flex-basis: 40%;
+	}
+
+	div.array2 img {
+		flex-basis: 40%;
+	}
 }
