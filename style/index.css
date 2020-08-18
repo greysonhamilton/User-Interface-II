@@ -266,12 +266,24 @@ h4 {
 		transition: 0.6s ease-out;
 	  }
 
-	  a.panel.show {
+	a.panel.show {
 		  opacity: 1;
 		  max-height: 800px;
-	  }
+	}
 
-	  div.array img {
+	div.array {
+		flex-flow: column nowrap;
+	}
+
+	div.array2 {
+		flex-flow: column nowrap;
+	}
+
+	section div.array1 img {
+		flex-basis: 40%;
+	}
+
+	div.array img {
 		flex-basis: 40%;
 	}
 
