@@ -270,4 +270,12 @@ h4 {
 		  opacity: 1;
 		  max-height: 800px;
 	  }
+
+	  div.array img {
+		flex-basis: 40%;
+	}
+
+	div.array2 img {
+		flex-basis: 40%;
+	}
 }
