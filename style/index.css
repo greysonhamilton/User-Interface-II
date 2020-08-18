@@ -208,7 +208,7 @@ h4 {
 
 	div.main p {
 		align-self: center;
-		align-items: center:
+		align-items: center;
 	}
 
 	.main {
@@ -227,15 +227,22 @@ h4 {
 		flex-wrap: wrap;
 	}
 
-	section div.array1 img {
-		flex-basis: 40%;
-	}
-
 	div.array img {
-		flex-basis: 40%;
+		flex-basis: 45%;
 	}
 
 	div.array2 img {
-		flex-basis: 40%;
+		flex-basis: 45%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+
+	div.array img {
+		flex-basis: 35%;
+	}
+
+	div.array img {
+		flex-basis: 35%;
 	}
 }
