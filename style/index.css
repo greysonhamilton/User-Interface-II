@@ -50,6 +50,8 @@ table {
 }
 
 /* Reset ends here */
+* {box-sizing: border-box;}
+
 body {
 	font-size: 62.5%;
 	margin: 5%;
