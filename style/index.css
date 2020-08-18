@@ -80,16 +80,12 @@ nav {
 	margin: 2% 0;
 }
 
-nav a {
+nav.links a {
 	text-decoration: none;
 	color: black;
 }
 
-a:link, a:visited, a:active {
-	color: white;
-}
-
-a:hover {
+nav a:link, nav a:visited, nav a:active, nav a:hover {
 	color: white;
 }
 
@@ -123,6 +119,12 @@ h3 {
 button {
 	margin: 2%;
 	padding: 1% 2%;
+	color: black;
+}
+
+button a:link, button a:visited, button a:active, button a:hover {
+	color: black;
+	text-decoration: none;
 }
 
 p {
@@ -242,7 +244,7 @@ h4 {
 		flex-basis: 35%;
 	}
 
-	div.array img {
+	div.array2 img {
 		flex-basis: 35%;
 	}
 }
