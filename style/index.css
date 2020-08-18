@@ -136,6 +136,8 @@ p {
 section {
 	margin: 20% 20%;
 	width: 90%;
+	display: flex;
+	flex-direction: column;
 }
 
 div.array {
