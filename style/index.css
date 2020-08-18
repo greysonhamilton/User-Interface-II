@@ -226,10 +226,6 @@ h4 {
 		flex-wrap: wrap;
 	}
 
-	section div.array1 img {
-		flex-basis: 40%;
-	}
-
 	div.array img {
 		flex-basis: 40%;
 	}
@@ -269,25 +265,5 @@ h4 {
 	a.panel.show {
 		  opacity: 1;
 		  max-height: 800px;
-	}
-
-	div.array {
-		flex-flow: column nowrap;
-	}
-
-	div.array2 {
-		flex-flow: column nowrap;
-	}
-
-	section div.array1 img {
-		flex-basis: 40%;
-	}
-
-	div.array img {
-		flex-basis: 40%;
-	}
-
-	div.array2 img {
-		flex-basis: 40%;
 	}
 }
