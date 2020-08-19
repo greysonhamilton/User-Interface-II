@@ -242,11 +242,4 @@ h4 {
 
 @media screen and (max-width: 500px) {
 
-	div.array img {
-		flex-basis: 35%;
-	}
-
-	div.array2 img {
-		flex-basis: 35%;
-	}
 }
