@@ -246,7 +246,7 @@ h4 {
 		flex-basis: 45%;
 	}
 }
-
+*/
 @media screen and (max-width: 500px) {
 
 	section {
@@ -270,22 +270,17 @@ h4 {
 		margin-top: 30%;
 	}
 
-	div.dropdown-content a:hover {
-		font-size: 3rem;
-	}
-
 @media screen and (min-width: 1366px) {
 
-	nav {
-		
+	div.dropdown-content {
+		display: flex;
+		width: 80%;
+		justify-content: space-between;
 	}
 
-	nav a {
+	div.dropdown-content a {
 		font-size: 2rem;
-	}
-	
-	nav a:hover {
-		font-size: 2rem;
+		align-self: flex-start;
 	}
 
 	main {
