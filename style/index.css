@@ -276,4 +276,46 @@ h4 {
 
 @media screen and (min-width: 1366px) {
 
+	nav {
+		
+	}
+
+	main {
+		display: flex;
+	}
+
+	div.container1 {
+		width: 50%;
+	}
+
+	div.container1 img {
+		width: 50%;
+		height: 40vh;
+	}
+
+	.main {
+		margin-left: 5%;
+		width: 40%;
+	}
+
+	section {
+		width: 60%;
+		flex-flow: row nowrap;
+	}
+
+	div.array {
+		flex-direction: column;
+	}
+
+	div.array img {
+
+	}
+
+	div.array2 {
+		flex-direction: column;
+	}
+
+	div.array2 img {
+		
+	}
 }
