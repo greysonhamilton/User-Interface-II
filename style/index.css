@@ -280,42 +280,58 @@ h4 {
 		
 	}
 
+	nav a {
+		font-size: 2rem;
+	}
+	
+	nav a:hover {
+		font-size: 2rem;
+	}
+
 	main {
 		display: flex;
+		flex-wrap: nowrap;
+		justify-content: space-between;
 	}
 
 	div.container1 {
-		width: 50%;
+		width: 30%;
+		flex-direction: column;
 	}
 
 	div.container1 img {
-		width: 50%;
+		width: 80%;
 		height: 40vh;
 	}
 
 	.main {
 		margin-left: 5%;
-		width: 40%;
+		width: 90%;
 	}
 
 	section {
-		width: 60%;
-		flex-flow: row nowrap;
+		width: 90%;
+		margin: 10%;
+		flex-direction: row;
 	}
 
 	div.array {
 		flex-direction: column;
+		margin: 0;
+		align-items: flex-start;
 	}
 
 	div.array img {
-
+		width: 40%;
 	}
 
 	div.array2 {
 		flex-direction: column;
+		margin: 0 0 0 2%;
+		align-items: flex-end;
 	}
 
 	div.array2 img {
-		
+		width: 40%;
 	}
 }
